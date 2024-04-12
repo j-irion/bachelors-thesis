@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+authors = ["Julius Irion <juliusirion@gmx.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+NREL-PySAM = "^5.1.0"
+vessim = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
